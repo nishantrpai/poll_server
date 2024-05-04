@@ -94,4 +94,4 @@ io.on("connection", (socket) => {
 
 
 const PORT = process.env.PORT || 8080;
-httpServer.listen(PORT, () => // console.log(`Socket.io server running on port ${PORT}`));
+httpServer.listen(PORT, () =>  console.log(`Socket.io server running on port ${PORT}`));
